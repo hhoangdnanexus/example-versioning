@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "example-versioning"
+version = "0.1.0"
+description = ""
+authors = ["hhoangdnanexus <168169510+hhoangdnanexus@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+pillow = "^10.3.0"
+scipy = "^1.13.0"
+tensorflow = ">=2,<3"
+tqdm = ">=4.41.0,<5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
